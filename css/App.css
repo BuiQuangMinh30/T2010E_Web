@@ -1,0 +1,35 @@
+h1{
+    color: #ff0000;/*rgb(255,0,0)*/
+    font-size: 50px;
+    font-family: SansSerif;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: underline;
+    /* underline line-through overline none*/
+    text-transform: none;/*uppercase lowercaser*/
+   /* border: 1px solid red;
+    /*solid dotted dashed*/
+    border-top: 1px solid red ;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+body{
+    background-image: url("../imgs/1-1553960076.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    font-family: "Times New Roman";
+    text-align: center;
+    color: #f3edc6;
+    font-weight: 400;/*thin light normal ,modian, bold....*/
+    text-indent: 20px;
+    width: 600px;
+    /*background-color: antiquewhite;*/
+}
+img{
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+}
