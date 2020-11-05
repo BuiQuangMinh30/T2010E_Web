@@ -1,0 +1,51 @@
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+#box{
+    background-color: #f5f4f4;
+    width: 1000px;
+    box-sizing: border-box;
+    float: left;
+    box-shadow: 0px 0px 5px;
+}
+#top{
+    margin: 25px;
+    background-color: #f8f7f7;
+    width: 950px;
+    height: 100px;
+}
+.bottom{
+    text-align: center;
+    width: 1000px;
+    background-color: #b81717;
+    float: none;
+    box-shadow:5px 0px 0px black;
+}
+.sp{
+    float: left;
+    width: 200px;
+    margin: 10px 25px;
+    background-color: #ffffff;
+}
+
+.detail{
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+}
+p{
+    text-align: center;
+}
+#top1{
+    width: 1000px;
+    float: none;
+    margin: 0 auto;
+}
+#top h2{
+    float: left;
+    padding-top: 15px;
+    padding-left: 35px;
+}
