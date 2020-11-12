@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#f6f8f7 ;
+}
+#box{
+    width: 500px;
+    height: 650px;
+    background-color: #f6f8f7;
+}
+.box1{
+    width: 450px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    border: 0.5px solid #d6d5d5;
+    padding-bottom: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+h1{
+    text-align: center;
+}
+.form-group1{
+    margin: 20px 30px;
+}
+.ip-text{
+    border-radius: 10px 10px 10px 10px;
+    width: 175px;
+    height: 35px;
+    font-size: 16px;
+    outline: none;
+    border: 1.5px solid #b0aeae;
+    padding-left: 10px;
+}
+.ip-text1 {
+    border-radius: 10px 10px 10px 10px;
+    width: 370px;
+    height: 35px;
+    font-size: 16px;
+    outline: none;
+    border: 1.5px solid #b0aeae;
+    padding-left: 10px;
+}
+#box p{
+    text-align: center;
+}
+#Box1{
+
+    width: 500px;
+    float: none;
+    margin: 0 auto;
+}
+.ip-text2{
+    border-radius: 15px 15px 15px 15px;
+    background-color: #4168dd;
+    color: white;
+    width: 380px;
+    height: 40px;
+}

@@ -21,17 +21,22 @@
   <component name="ChangeListManager">
     <list default="true" id="07e6ddac-187c-4e21-85da-f59e8f3e95b4" name="Default Changelist" comment="update date">
       <change afterPath="$PROJECT_DIR$/css/Session3_1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/session4_1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/1ec9f20e-f97c-43ea-aba7-d16296ddcda5_d4831b05287f4de39c541ea0ec1214e4_master.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/session4_2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/session5_1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/session5_2.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/imgs/2d5ab14f89532f6529fb2cf0f0cf4f3c.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/session3_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session4_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session4_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session5_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessison5_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class2.html" beforeDir="false" afterPath="$PROJECT_DIR$/class2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/session3_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/session3_2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/session4_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/session4_1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/session3_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/session3_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session4_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/session4_1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +103,11 @@
       <workItem from="1604497775168" duration="901000" />
       <workItem from="1604572680650" duration="12230000" />
       <workItem from="1604586031540" duration="59000" />
-      <workItem from="1604593051919" duration="293000" />
+      <workItem from="1604593051919" duration="787000" />
+      <workItem from="1604902576249" duration="1445000" />
+      <workItem from="1604906229362" duration="2018000" />
+      <workItem from="1604917701371" duration="2980000" />
+      <workItem from="1605005934452" duration="11030000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1603979268557</created>
@@ -177,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604573829353</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update date 1">
+      <created>1604593375657</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604593375657</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,17 +217,22 @@
     <MESSAGE value="update2" />
     <MESSAGE value="session3" />
     <MESSAGE value="update date" />
-    <option name="LAST_COMMIT_MESSAGE" value="update date" />
+    <MESSAGE value="update date 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update date 1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605015510385">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605015510385" />
     <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604402420483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604402420483" />
-    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1604573828277">
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1604903814061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604573828277" />
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604903814061" />
     <state x="550" y="155" key="FileChooserDialogImpl" timestamp="1604063195400">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -220,10 +241,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603975263868" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1604573849521">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1604593379898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604573849521" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604593379898" />
     <state x="588" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603979209038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
