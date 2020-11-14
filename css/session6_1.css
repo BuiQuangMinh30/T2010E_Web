@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  sans-serif;
+    font-size: 14px;
+    color: #222222;
+    background-color: #f2f2f2;
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    float: none;
+}
+.header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 30px 0;
+}
+.header .logo{
+    float: left;
+    font-size: 30px;
+}
+.top-links{
+    float: right;
+}
+.logo a{
+    font-size: 25px;
+    line-height: 1;
+    text-decoration: none;
+}
+.top-links li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+.top-links li a{
+    line-height: 25px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav{
+    background-color: #ffffff;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+.menu li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+.menu li.last{
+    float: right;
+    margin-right: 0;
+}
+.content{
+    float: left;
+    width: 66.67%;
+    padding-right: 15px;
+}
+.sidebar{
+    float: left;
+    width: 33.33%;
+    padding-left: 15px;
+}
+.post{
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+
+}
+.block{
+    float: left;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: #414040;
+}
+.subcribe{
+    background-color: #c1c0c0;
+
+}
+.box1{
+    line-height: 40px;
+    color: white;
+}
+.box1_1{
+    height: 30px;
+    width: 320px;
+}
+.box1_2{
+    height: 30px;
+    width: 320px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+.block1{
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.post h1{
+    font-size: 25px;
+}
+a{
+    color: black;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+.post a{
+    color: red;
+}
+.icon{
+    background-color: #aaaaaa;
+    width: 15%;
+    float: left;
+    margin: 10px;
+}
+.se p{
+    padding-top: 20px;
+    float: left;
+    padding-left: 30px;
+    color: black;
+    font-size: 14px;
+}
+.box2_1{
+    float: left;
+    font-size: 20px;
+    width: 320px;
+    height: 30px;
+}
