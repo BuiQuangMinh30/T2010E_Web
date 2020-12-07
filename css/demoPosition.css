@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.w3-green{
+    text-align: center;
+}
+.w3-content{
+    width: 100%;
+    position: absolute;
+    padding-left: 600px;
+}
+.w3-content .w3-bar-iem{
+    padding: 10px;
+    background-color: #0f0f0f;
+    color: white;
+}
+.w3-content .box{
+    width: 400px;
+    height: 200px;
+    background-color: #acabab;
+}

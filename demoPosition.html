@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/demoPosition.css">
+    <link rel="stylesheet" href="LIBS/Bootstrap.3.4.1/css/bootstrap.css">
+</head>
+<body>
+
+<div class="w3-content w3-pannel">
+    <h2>Xây dựng tabs</h2>
+    <div class="w3-bar w3-black">
+        <button class="w3-bar-iem w3-button" onclick="opentabs('tab1')">Home</button>
+        <button class="w3-bar-iem w3-button" onclick="opentabs('tab2')">Profile</button>
+        <button class="w3-bar-iem w3-button" onclick="opentabs('tab3')">Mess</button>
+        <button class="w3-bar-iem w3-button" onclick="opentabs('tab4')">Setting</button>
+    </div>
+    <div class="box">
+    <div id="tab1" class="w3-container w3-border tabs">
+        <h3>Nội dung 1 </h3>
+        <p>this is Home </p>
+    </div>
+    <div id="tab2" class="w3-container w3-border tabs" style="display: none">
+        <h3>Nội dung 2 </h3>
+        <p>this is Profile </p>
+    </div>
+    <div id="tab3" class="w3-container w3-border tabs"style="display: none">
+        <h3>Nội dung 3</h3>
+        <p>this is Mess </p>
+    </div>
+    <div id="tab4" class="w3-container w3-border tabs "style="display: none">
+        <h3>Nội dung 4 </h3>
+        <p>this is Setting </p>
+    </div>
+</div>
+</div>
+<script>
+    function opentabs(tabHome) {
+    var i;
+    var x=document.getElementsByClassName("tabs");
+    for (i=0;i<x.length;i++){
+        x[i].style.display="none";
+    }
+    document.getElementById(tabHome).style.display="block";
+    }
+
+</script>
+
+</body>
+</html>
