@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JS2</title>
+</head>
+<body>
+      <script type="text/javascript">
+         // alert("Cam tre em duoi 18 tuoi");// void
+      //  var c=  confirm("Ban chac chan muon vao xem?");//boolen true/false
+      // if(c){
+      //     //neu nguoi dung oke
+      //     console.log("Oke");
+      // }
+      // else{
+      //     //cancel
+      //     console.log("Cancel");
+      // }
+      //   var p=prompt("Ban ten la gi");//String or null(khong co gia tri)
+      //    p=parseInt(p);//bien string thanh number(int)
+         /*
+         5->5
+         5a->5
+         5a5->5
+         56asd57->56
+         abc56fsd67-> Nan: not a number
+          */
+         //parsefloat
+         //isNaN(p)//true if p=Nan; false if p!=nan
+         // if(isNaN(p)){
+         //     console.log("Error");
+         // }
+         // else {
+         //     console.log(p+5);//10
+         // }
+         // console.log(p+5);
+         //vi du: tao 1 so ngau nhien 0->99(so may man)
+         //sau do cho nguoi dung nhap 1 so -> kie tra xem trung giai hay k
+         //tao so ngau nhie
+         // var rd=parseInt(Math.random()*100); //0<=rd<=100
+         // console.log(rd);
+         // var luckyNumber=prompt("Nhap so may man");
+         // luckyNumber=parseInt(luckyNumber);
+         // if(luckyNumber==rd){
+         //     alert("chuc mung ban da trung giai");
+         // }
+         // else {
+         //     alert("chuc may man vao ngay mai");
+         // }
+
+         //vietlot
+         var vl =[];
+         do{
+             var n =  parseInt(Math.random()*46);
+             if(!vl.includes(n)){
+                 vl.push(n);
+             }
+         }while (vl.length<5);
+         console.log(vl);
+         // chon 5 so 0-45
+         var ln = [];
+         do {
+             var n = prompt("Chon 1 so:");
+             n = parseInt(n);
+             if(!isNaN(n) && n>=0 && n<=45 && !ln.includes(n)){
+                 ln.push(n);
+             }
+         }while (ln.length<5);
+         var count = 0;
+         ln.map((e)=>{
+             if(vl.includes(e)){
+                 count++;
+             }
+         });
+         if(count==5 ){
+             alert("chuc mung ban da trung 100 ty");
+         }
+         else{
+             alert("chuc mung may man lan sau");
+         }
+
+      </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JS</title>
+</head>
+<body>
+     <script type="text/javascript">
+         //code js viet day
+         var x;
+         var y=5;
+         x=10;
+         console.log(x+y); //15
+         x="hello";
+         console.log(x+y); //hello5
+         console.log(y+x) //5hello
+
+         var z;
+         z="he''''llo"+"world"+'h"""aha';
+         console.log(z);
+         console.log("do dai cua z = "+z.length);
+         if(z.length>20){
+             console.log("z da vuot qua gioi han cho phep");
+         }
+         else{
+             console.log("van chua vuot qua");
+         }
+         for(var i=0;i<z.length;i++){
+             console.log("i= "+i);
+         }
+         var arr=[];     //khai bao mang
+         arr[0]=5;
+         arr[2]="hello";
+         arr.push(15);
+         arr.push("xin chao");
+         //arr.push([1,2,3],"hello");//mang k gioi han do sau
+         for( var i=0;i<arr.length;i++){
+             console.log(arr[i]);
+         }
+         arr.map((e)=>{
+             //e cung giong arr[i]
+             console.log(e);
+         })
+         x= tinhTong(1,3);
+         function tinhTong(a,b){
+             return a+b;
+         }
+         console.log(x);
+         x=tinhTong(1,"aaa");
+         console.log(x);
+         function timsolonNhat(a){
+             var max=a[0];
+             a.map((e)=>{
+                 if(e>max)
+                     max=e;
+             })
+             console.log("max = "+max);
+         }
+         //console.log(4);//error
+     var arr2=[1,3,4,5,2,6];
+         if(arr2.includes(4)){
+             console.log("4 co trong mang");
+         }
+         else{
+             console.log("khong co");
+         }
+     </script>
+     <script type="text/javascript" src="JS/session8_1.js">
+         //khong duoc viet code js o day
+     </script>
+</body>
+</html>

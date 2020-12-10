@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="LIBS/Bootstrap.3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="css/session10_dongho.css">
+
+</head>
+<body>
+<section class="kiem_chi">
+    <hr>
+
+</section>
+<section class="vong-quay">
+<h1 id="tieude"> Day la vong quay may man</h1>
+<img id="nt"  src="imgs/73b58PIC9dAae3wqHJ7aD_PIC2018.png_wh860.png" />
+    <script src="JS/sessioin10_dongho.js">
+    var f = true;
+    var t=90;
+    function Img() {
+        var x = document.getElementById("nt");
+
+        t+=5;
+        x.style.transform = "rotate("+t+"deg)";
+        if(t>=360*5) // quay du 5 vong thi dung + 1 doan di den phan thuong
+            clearInterval(ss);
+    }
+    var ss = setInterval(Img,10);
+</script>
+</section>
+
+</body>
+</html>

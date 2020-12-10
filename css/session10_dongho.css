@@ -1,0 +1,15 @@
+img{
+    border-radius: 100%;
+    padding: 40px;
+}
+*{
+    text-align: center;
+}
+#kiem_chi{
+    text-align: center;
+}
+hr{
+    border: 3px solid black;
+    float:top;
+    padding-left: 100px;
+}

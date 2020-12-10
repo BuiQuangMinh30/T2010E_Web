@@ -7,6 +7,17 @@ img{
 }
 body{
     background-color: #726e6e;
+    font-family: 'Nunito', sans-serif;
+
+}
+#box{
+    width: 1000px;
+    background-color: #ffffff;
+    float: none;
+    margin: 0 auto;
+    margin-left: calc(50% - 550px);
+    box-shadow: 0px 5px 5px #aaaaaa;
+    border-radius: 5px;
 }
 div {
     width: 1000px;
@@ -18,19 +29,14 @@ div {
     width: 1000px;
     height: 200px;
     background-color: #bcbfc1;
-    text-align: center;
     box-shadow: none;
-
-}
-#top h2{
-
-    margin: 30px 0px 5px 0px;
-    padding: 0px;
     box-sizing: border-box;
+    padding-left: 400px;
+    padding-top: 70px;
 }
 #right {
     float: right;
-    width: 650px;
+    width: 600px;
     height: 800px;
     background-color: #ffffff;
     padding-left: 20px;
@@ -42,12 +48,13 @@ div {
     background-color: #d5d7d9;
     float: top;
     width: 300px;
-    height: 934px;
+    height: 1000px;
     padding-left: 20px;
     box-shadow: none;
+    margin-left: 50px;
 }
 #right div {
-    width: 650px;
+    width: 580px;
     float: left;
     border-top: 1px solid black;
 }
@@ -55,22 +62,23 @@ div {
     width: 150px;
     float: left;
     border-top: 1px solid #757171;
-
 }
-#top p{
+#top p {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px 0 0;
 }
-    height: 30px;
-    margin-bottom: 30px;
-
-span{
-    float: left;
-    width: 300px;
-    height: 300px;
-    background-color: #dd1313;
-    animation: session3;
-    transition: all 1s;
-
+#top h2{
+    font-size: 40px;
+    margin: 10px 0 0;
+    text-transform: uppercase;
 }
+#left p, #right p{
+    font-size: 16;
+    line-height: 1.5;
+}
+
+
 
 
 

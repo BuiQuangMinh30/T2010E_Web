@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/session5_1.css"/>
+</head>
+<body>
+    <from action="#" method="post">
+             <div class="form-group">
+            <label>Full Name</label>
+        <input class="ip-text" name="fullname" required type="text" placeholder="fullname"/>
+        </div>
+            <div class="form-group">
+            <label>Email</label>
+        <input class="ip-text"name="email" required type="email" placeholder="email"/>
+        </div>
+            <div class="form-group">
+                <label>Password</label>
+        <input class="ip-text" name="pwd" required type="password" placeholder="password"/>
+            </div>
+            <div class="form-group">
+                    <label>Birthday</label>
+        <input class="ip-text" name="birthday" required type="date" placeholder="birthday"/>
+                </div>
+            <div class="form-group">
+                    <label>Color</label>
+        <input class="ip-text" name="mycolor" type="color" placeholder="My color"/>
+                    </div>
+        <br/>
+       <label>
+           <input type="radio" name="gender" value="nam"/>Nam
+       </label>
+        <label>
+            <input type="radio" name="gender" value="nu"/>Nu
+        </label>
+        <label>
+            <input type="radio" name="gender" value="khac"/>Khac
+        </label>
+        <br/>
+        <label><input type="checkbox" checked name="ready"/>I'm ready</label>
+        <br/>
+        <select name="city">
+            <option>Vui lòng chọn tỉnh, thành phố</option>
+            <option value="hn">Hà Nội</option>
+            <option value="sg">Tp Hồ Chí Minh</option>
+            <option value="hp">Hải Phòng</option>
+            <option value="ct">Cần Thơ</option>
+        </select>
+        <br/>
+        <textarea  name="description"rows="10" cols="100" placeholder="Mô tả bản thân"></textarea>
+        <br/>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Button</button>
+    </from>
+</body>
+</html>

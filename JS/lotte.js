@@ -1,0 +1,3 @@
+function lotte(arr){
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="head1">tieu de trang</h1>
+<p id="p1">tuong tu</p>
+
+<img id="nt" src="imgs/1-1553960076.jpg" height="792" width="1200"/>
+<script type="text/javascript">
+
+   funcion demo(){
+       var h= document.getElementById("head1");
+       h.innerText=" tieue de sau khi chinh sua";
+       var pp=document.getElementById("p1");
+       pp.style.color="red";
+       pp.style.fontSize="18px";
+       var text =pp.innerText;
+       pp.innerHTML ="<span>"+text+"</span>";
+       pp.classList.add("abc");// them class abc
+       pp.classList.remove("xyz");// xoa class xyz
+   }
+   setTimeout(demo,3000);
+   var f=true;
+   funcion Img(){
+       var x=document.getElementById("nt");
+       if(f){
+           x.style.display="block";
+           f = false;
+       }
+       else
+       {
+           x.style.display="none";
+           f =true;
+       }
+   }
+   //setInterval(Img,3000);
+</script>
+
+</body>
+</html>

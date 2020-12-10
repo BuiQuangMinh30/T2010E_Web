@@ -8,13 +8,13 @@
 </head>
 <body>
 
-<div class="w3-content w3-pannel">
+<div class="w3-content ">
     <h2>Xây dựng tabs</h2>
     <div class="w3-bar w3-black">
-        <button class="w3-bar-iem w3-button" onclick="opentabs('tab1')">Home</button>
-        <button class="w3-bar-iem w3-button" onclick="opentabs('tab2')">Profile</button>
-        <button class="w3-bar-iem w3-button" onclick="opentabs('tab3')">Mess</button>
-        <button class="w3-bar-iem w3-button" onclick="opentabs('tab4')">Setting</button>
+        <button class="w3-bar-iem w3-button" onclick="opentabs('tab1',this)">Home</button>
+        <button class="w3-bar-iem w3-button" onclick="opentabs('tab2',this)">Profile</button>
+        <button class="w3-bar-iem w3-button" onclick="opentabs('tab3',this)">Mess</button>
+        <button class="w3-bar-iem w3-button" onclick="opentabs('tab4',this)">Setting</button>
     </div>
     <div class="box">
     <div id="tab1" class="w3-container w3-border tabs">
@@ -36,13 +36,19 @@
 </div>
 </div>
 <script>
-    function opentabs(tabHome) {
+    function opentabs(tabHome,a) {
     var i;
     var x=document.getElementsByClassName("tabs");
     for (i=0;i<x.length;i++){
         x[i].style.display="none";
     }
     document.getElementById(tabHome).style.display="block";
+
+    var links=document.getElementsByClassName("w3-button");
+    for(var i=0;i<links.length;i++){
+        links[i].style.borderBottomColor="#000000";
+    }
+
     }
 
 </script>

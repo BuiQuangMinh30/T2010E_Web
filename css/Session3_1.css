@@ -1,0 +1,78 @@
+body{
+    background-color: #f3edc6;
+}
+
+img{
+    max-width: 100%;
+}
+div{
+    float: left;/*dồn khối*/
+    width: 300px;
+    box-shadow: 0px 0px 10px #dd1313;
+    margin: 20px;
+    /*chieu nao thieu so thi lay chieu doi dien
+    không dc tính diejen tích của khối
+    margin-top:10px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 20px;*/
+    padding: 20px;
+    /*theo nguyen tac margin
+    khoảng cách giữa boder và nội dung*/
+    box-sizing: border-box;
+    /*kich co cua khối dc tính từ border đi vào*/
+    border-radius: 5px;
+    /*gọt 4 đầu*/
+}
+span{/*tao hinh*/
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: #dd1313;
+    border-radius: 100%;
+    transition: all 1s; /*làm hiệu ứng diễn ra từ từ*/
+    animation: dengiaothong2;
+    animation-duration: 2s;/*thoi gian thuc hien*/
+    animation-iteration-count: 1 ;/*so lan thuc hien*/
+    animation-delay: 2s;
+}
+span:hover{
+    background-color: green;
+}
+@keyframes dengiaothong {/* chuyển động từ đâu đến đâu*/
+    from{
+        background-color: red;
+        width: 300px;
+    }
+    to{
+        background-color: green;
+        width: 500px;
+    }
+}
+@keyframes dengiaothong2 {
+    0%{
+        width: 300px;
+    }
+    20%{
+        width: 400px;
+    }
+    40%{
+        width: 500px;
+    }
+    60%{
+        width: 400px;
+    }
+    80%{
+        width: 300px;
+    }
+}
+#sofm{
+    background-color: #c0d698;
+}
+#sofm p{
+    color: #bc8fb7;
+}
+#sofm:hover p{
+    color: red;
+    margin-top: -10px;
+}

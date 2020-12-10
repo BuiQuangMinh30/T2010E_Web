@@ -51,6 +51,7 @@ h1{
     margin: 0 auto;
 }
 .ip-text2{
+    border: 1.5px solid #b0aeae;
     border-radius: 15px 15px 15px 15px;
     background-color: #4168dd;
     color: white;

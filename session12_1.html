@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <h1 onmouseenter="demo2();demo1()" onmouseleave="demo3()" id="heading">Tiêu đề</h1>
+     <button type="button" onclick="demo1(this)">Click here</button>
+     <button type="button" onclick="demo1(this)">Click here</button>
+<script type="text/javascript">
+    function demo1(x) {
+        var h= document.getElementById("heading");
+        h.style.color="red";
+        x.style.backgroundColor="yellow";
+    }
+    function demo2() {
+        console.log("BBBBBBBB");
+    }
+    function demo3() {
+        console.log("CCCCCCCC");
+    }
+</script>
+<input name="name" onkeyup="textPress2(e)" onkeydown="textPress1(e)" onkeypress="textPress3(this)" type="text" placeholder="Enter word..."/>
+<!--     khi người dùng ấn và khi người dùng thả ra-->
+<script type="text/javascript">
+    function textPress1(e){
+        // var x=e.value;
+        // console.log("Key down "+x);
+    }
+    function textPress2(e){
+        // var x=e.value;
+        // console.log("Key Up "+x);
+    }
+    function textPress3(e) {
+        if (event.keyCode == 13) {
+            var x = e.value;
+            console.log("Key Press: " + x);
+        }
+    }
+</script>
+<select name="city" onchange="changeCity(this)">
+    <option value="hn">Ha Noi</option>
+    <option value="sg">Sai Gon</option>
+    <option value="dn">Da Nang</option>
+    <option value="ct">Can Tho</option>
+</select>
+<script type="text/javascript">
+    function changeCity(e){
+        var x= e.value;
+        console.log("Change: "+x)
+    }
+</script>
+<select name="mycolor">
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="yellow">Yellow</option>
+    <option value="blue">Blue</option>
+    <option value="black">Black</option>
+</select>
+<script type="text/javascript">
+    function changeColor(e){
+        document.getElementById("heading").style.color=e.value;
+    }
+</script>
+</body>
+</html>

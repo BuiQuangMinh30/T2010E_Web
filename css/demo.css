@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 100%;
+}
+.right{
+    padding: 40px 20px 30px 50px;
+font-size: 20px;
+text-decoration: none;
+display: block;
+text-align: center;
+background-color: white;
+}
+.thongtin{
+    padding: 80px 0 60px 10px ;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    top: 120px;
+     left: 0;
+    right: 0;
+
+}
+hr{
+    border-left: 1px solid black;
+}
+.text p{
+    float: none;
+    display: table;
+    color: black;
+    padding: 0!important;
+}
+.file1 p:hover{
+    text-decoration: none;
+}
+.file1:hover .box-one{
+   display: block;
+}
+.file1:hover .box-two{
+    display: block;
+}
+.file1:hover .box-three{
+    display: block;
+}
+.file1:hover .box-for{
+    display: block;
+}
+.full a{
+float: left;
+    padding: 0 40px 50px;
+}

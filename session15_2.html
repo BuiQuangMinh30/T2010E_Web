@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JS</title>
+    <link rel="stylesheet" href="LIBS/Bootstrap.3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="css/session15_2.css">
+    <link rel="stylesheet" href="LIBS/Fontawesome-5.15.1/css/all.css">
+
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">HOME</a>
+    <a href="#">SERVICES</a>
+    <a href="#">BLOG</a>
+    <a href="#">ABOUT</a>
+    <a href="#">CONTACT</a>
+</div>
+
+<div id="main">
+    <div class="now">
+    <button class="openbtn" onclick="openNav()"><i class="fas fa-bars"></i>  MENU</button>
+    </div>
+        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+</div>
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+
+</body>
+</html>
