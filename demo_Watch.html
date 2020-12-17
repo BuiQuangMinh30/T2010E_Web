@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="LIBS/Bootstrap.3.4.1/css/bootstrap.css">
+    <script src="LIBS/jquery/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="LIBS/owl_carousel/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="LIBS/owl_carousel/assets/owl.carousel.css">
+    <script src="LIBS/owl_carousel/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="css/demo_Owl_carousel.css">
+
+</head>
+<body>
+<section class="col-md-12">
+    <div id="wp-slider">
+        <div class="owl-carousel owl-theme">
+            <div class="item" ><a href=""> <img src="imgs/capture1.PNG" alt=""></a></div>
+            <div class="item" ><a href=""> <img src="imgs/capture2%20(2).PNG" alt=""></a></div>
+            <div class="item" ><a href=""> <img src="imgs/capture3.PNG" alt=""></a></div>
+            <div class="item" ><a href=""> <img src="imgs/capture1.PNG" alt=""></a></div>
+            <div class="item" ><a href=""> <img src="imgs/capture2%20(2).PNG" alt=""></a></div>
+            <div class="item" ><a href=""> <img src="imgs/capture3.PNG" alt=""></a></div>
+
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:2,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+</script>
+</body>
+</html>

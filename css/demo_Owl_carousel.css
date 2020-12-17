@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wp-slider{
+    display: block;
+}
+#wp-slider img{
+    display: flex;
+    height: 400px;
+}

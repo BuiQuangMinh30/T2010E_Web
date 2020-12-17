@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Details h2{
+    text-align: center;
+    color: #ff253a;
+}
+.Details h3{
+    text-align: center;
+    padding: 30px 0 ;
+}
+.detail{
+    width: 400px;
+    height: 450px;
+    align-content: center;
+    background-color: silver;
+    display: block;
+    margin: 0 auto;
+}
+.form-control{
+    display: block;
+    align-content: center;
+    width: 300px;
+    height: 20px;
+    padding-right: 30px;
+    margin-left: 30px;
+}
+.form-group{
+    padding-top: 20px;
+}
+.form-group .form-now{
+    padding-left: 50px;  padding-top: 10px;
+}
+.control-now{
+    margin-left: 10px;
+    padding-left: 50px;
+}
