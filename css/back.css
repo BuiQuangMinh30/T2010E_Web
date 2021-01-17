@@ -1,0 +1,13 @@
+body{
+    background:  black fixed no-repeat center top;
+    line-height: 60px;
+    font-family: "Arial";
+    layermensaje: 2pt;
+}
+.layermensaje{
+    width: 90%;
+    margin: 100px auto;
+}
+.youtubea{
+    text-align: center;
+}

@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tặng em Yến</title>
+  <script rel="stylesheet" src="snow.js"></script>
+  <link rel="stylesheet" href="css/back.css">
+</head>
+
+
+<!-- Javascript -->
+<script type="text/javascript">
+  var c = 99999999999;
+  var t;
+  var theDate = new Date();
+  s = theDate.getSeconds();
+
+  function ChangeUrl(site)
+  {
+      document.getElementById('txt').innerHTML = '<a href="'+ site +'" ><font color="FF00FF"><b><font color="red">'+ c +'</b></font></font></a>';
+      c-=1;
+      url = site;
+      t = setTimeout( "ChangURL()" ,1000);
+      stopCount(c, url);
+  }
+
+  function stopCount(c, link){
+    if(c == -1)
+    {
+        clearTimeout(t);
+        location.href = link;
+    }
+  }
+
+/* Nội dung chữ chạy */
+mensaje =
+     '<font size="3" color="red" >Chúc  mừng sinh nhật, chúc em ngày một xinh đẹp, giỏi giang.</font>'+'<br>';
+  
+line = 0; /* Cái này không cần quan tâm ^^ */
+
+cursor = '_'; /* Cái này là con trỏ trong khi chạy, bạn thay dấu _ bằng dấu | rồi xem lại web để thấy khác biệt nha */
+
+function teclear()
+{
+    if(line == mensaje.length) cursor = '';
+    ttecleado.innerHTML = mensaje.substring(0,line)+cursor;
+    if(line++<mensaje.length) setTimeout("teclear()",60);
+}
+
+</script>
+
+<div class="layermensaje" id="ttecleado"></div>
+
+<!-- Đoạn img bên dưới này là mấy cái tuyết, không nên xóa -->
+<img style="display: block; font-size: 1px; left: 1091px; width: 5px; bottom: auto; position: absolute; TOP: 494px; height: 5px" src="imgs/0.gif">
+<img style="display: block; font-size: 1px; left: 792px; width: 5px; bottom: auto; position: absolute; TOP: 23px; height: 5px" src="imgs/1.gif">
+<img style="display: block; font-size: 1px; left: 449px; width: 5px; bottom: auto; position: absolute; TOP: 237px; height: 5px" src="imgs/5.gif">
+<img style="display: block; font-size: 1px; left: 435px; width: 5px; bottom: auto; position: absolute; TOP: 438px; height: 5px" src="imgs/2.gif">
+<img style="display: block; font-size: 1px; left: 304px; width: 5px; bottom: auto; position: absolute; TOP: 555px; height: 5px" src="imgs/3.gif">
+<img style="display: block; font-size: 1px; left: 501px; width: 5px; bottom: auto; position: absolute; TOP: -395px; height: 5px" src="imgs/0.gif">
+<img style="display: block; font-size: 1px; left: 1196px; width: 5px; bottom: auto; position: absolute; TOP: 589px; height: 5px" src="imgs/2.gif">
+<img style="display: block; font-size: 1px; left: 978px; width: 5px; bottom: auto; position: absolute; TOP: -756px; height: 5px" src="imgs/1.gif">
+<img style="display: block; font-size: 1px; left: 171px; width: 5px; bottom: auto; position: absolute; TOP: 700px; height: 5px" src="imgs/5.gif">
+<img style="display: block; font-size: 1px; left: 985px; width: 5px; bottom: auto; position: absolute; TOP: -440px; height: 5px" src="imgs/2.gif">
+<img style="display: block; font-size: 1px; left: 841px; width: 5px; bottom: auto; position: absolute; TOP: 716px; height: 5px" src="imgs/4.gif">
+<img style="display: block; font-size: 1px; left: 85px; width: 5px; bottom: auto; position: absolute; TOP: -395px; height: 5px" src="imgs/1.gif">
+<img style="display: block; font-size: 1px; left: 189px; width: 5px; bottom: auto; position: absolute; TOP: 234px; height: 5px" src="imgs/4.gif">
+<img style="display: block; font-size: 1px; left: 1255px; width: 5px; bottom: auto; position: absolute; TOP: 509px; height: 5px" src="imgs/2.gif">
+<img style="display: block; font-size: 1px; left: 312px; width: 5px; bottom: auto; position: absolute; TOP: 459px; height: 5px" src="imgs/4.gif">
+<img style="display: block; font-size: 1px; left: 343px; width: 5px; bottom: auto; position: absolute; TOP: 123px; height: 5px" src="imgs/5.gif">
+<img style="display: block; font-size: 1px; left: 0px; width: 5px; bottom: auto; position: absolute; TOP: 320px; height: 5px" src="imgs/1.gif">
+<img style="display: block; font-size: 1px; left: 871px; width: 5px; bottom: auto; position: absolute; TOP: -730px; height: 5px" src="imgs/3.gif">
+<img style="display: block; font-size: 1px; left: 423px; width: 5px; bottom: auto; position: absolute; TOP: 478px; height: 5px" src="imgs/1.gif">
+<img style="display: block; font-size: 1px; left: 1069px; width: 5px; bottom: auto; position: absolute; TOP: 572px; height: 5px" src="imgs/3.gif">
+<img style="display: block; font-size: 1px; left: 649px; width: 5px; bottom: auto; position: absolute; TOP: -72px; height: 5px" src="imgs/1.gif">
+<img style="display: block; font-size: 1px; left: 863px; width: 5px; bottom: auto; position: absolute; TOP: 664px; height: 5px" src="imgs/0.gif">
+
+
+
+
+
+
+
+
+
+<body onload="teclear();">
+
+<!-- Nhạc nền -->
+<p class="youtubea">
+    <iframe width="956" height="538" src="https://www.youtube.com/embed/CXtNxEhBJ_I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+
+</body>
+</html>
