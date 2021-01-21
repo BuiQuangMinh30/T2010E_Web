@@ -293,7 +293,7 @@ function SnowStorm() {
     var used = 0;
     var waiting = 0;
     for (var i=s.flakes.length; i--;) {
-      if (s.flakes[i].active == 1) {
+      if (s.flakes[i].active == 1 ) {
         s.flakes[i].move();
         active++;
       } else if (s.flakes[i].active == 0) {
