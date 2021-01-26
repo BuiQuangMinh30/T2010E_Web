@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07e6ddac-187c-4e21-85da-f59e8f3e95b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TangEmYen.html" afterDir="false" />
+    <list default="true" id="07e6ddac-187c-4e21-85da-f59e8f3e95b4" name="Default Changelist" comment="update date">
+      <change afterPath="$PROJECT_DIR$/W3_Band.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/W3_Band.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +174,15 @@
       <workItem from="1611147487214" duration="2659000" />
       <workItem from="1611164870682" duration="9000" />
       <workItem from="1611232458550" duration="14000" />
-      <workItem from="1611235205225" duration="361000" />
+      <workItem from="1611235205225" duration="578000" />
+      <workItem from="1611235811063" duration="762000" />
+      <workItem from="1611489450611" duration="107000" />
+      <workItem from="1611562008862" duration="422000" />
+      <workItem from="1611563680823" duration="651000" />
+      <workItem from="1611592917444" duration="927000" />
+      <workItem from="1611641467276" duration="297000" />
+      <workItem from="1611643775822" duration="509000" />
+      <workItem from="1611658401704" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1603979268557</created>
@@ -314,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611235310904</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update date">
+      <created>1611235606454</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611235606454</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,10 +379,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604402420483" />
-    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1611235309843">
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1611236267382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611235309843" />
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611236267382" />
     <state x="550" y="155" key="FileChooserDialogImpl" timestamp="1610891393628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -374,10 +391,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603975263868" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1611235314624">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1611235610825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611235314624" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611235610825" />
     <state x="588" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607610188126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
