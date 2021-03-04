@@ -5,7 +5,6 @@ function SnowStorm() {
   // PROPERTIES
   // ------------------
 
-  var imagePath = 'http://laitranduchoang.com/duchoag/'; // relative path to snow images (including trailing slash)
   var flakesMax = 60;
   var flakesMaxActive = 60;
   var vMaxX = 2.5;

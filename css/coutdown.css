@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: #ff253a;
+    text-transform: uppercase;
+}
+.newyear{
+    margin-top: 195px;
+
+    transform: rotate(
+            0deg
+    );
+    top: 4%;
+    opacity: 1;
+    transition: all 4s ease 0s;
+    left: 43%;
+}
+.happ_left{
+    position: relative;
+    width: 40%;
+    height: 400px;
+    transform: rotate(
+            0deg
+    );
+    top: 4%;
+    opacity: 1;
+    transition: all 4s ease 0s;
+}
+.happy_center{
+    position: relative;
+    width: 40%;
+    height: 400px;
+    margin-left: -5px;
+}
+.happy_right{
+    position: relative;
+    width: 20%;
+    height: 400px;
+    margin-left: -5px;
+}
